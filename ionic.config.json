@@ -1,0 +1,8 @@
+{
+  "name": "Admin",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "7309a731"
+}
