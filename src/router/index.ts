@@ -16,16 +16,20 @@ const routes: Array<RouteRecordRaw> = [
         redirect: '/tabs/tab1'
       },
       {
-        path: 'tab1',
-        component: () => import('@/views/Tab1Page.vue')
+        path: 'Dashboard',
+        component: () => import('@/views/DashboardPage.vue')
       },
       {
-        path: 'tab2',
-        component: () => import('@/views/Tab2Page.vue')
+        path: 'Library',
+        component: () => import('@/views/ProfilePage.vue')
       },
       {
-        path: 'tab3',
-        component: () => import('@/views/Tab3Page.vue')
+        path: 'Settings',
+        component: () => import('@/views/SettingsPage.vue')
+      },
+      {
+        path: 'Stats',
+        component: () => import('@/views/StatsPage.vue')
       }
     ]
   }
